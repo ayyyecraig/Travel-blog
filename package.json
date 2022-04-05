@@ -1,0 +1,29 @@
+{
+  "name": "travel-blog",
+  "version": "1.0.0",
+  "description": "Full stack MERN app built with react redux, express, and mongoDB",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ayyyecraig/Travel-blog.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ayyyecraig/Travel-blog/issues"
+  },
+  "homepage": "https://github.com/ayyyecraig/Travel-blog#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "mongoose": "^6.2.10",
+    "morgan": "^1.10.0",
+    "pg": "^8.7.3",
+    "sequelize": "^6.18.0"
+  }
+}
